@@ -35,8 +35,8 @@ jobs:
       uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
     - name: JY commmit et push
       run: |
-        git config --global user.name <votre id GitHub>
-        git config --global user.email <votre email>
+        git config --global user.name A1exPrdgc
+        git config --global user.email pa230262@etu.univ-lehavre.fr
         git add -A
         git status
         git commit -m "exécution de maven"
