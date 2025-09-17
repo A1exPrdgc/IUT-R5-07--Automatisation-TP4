@@ -48,4 +48,3 @@ public class CalculetteTest {
         assertEquals(4 + (2/3.2), res, 1e-9);
     }
 }
-

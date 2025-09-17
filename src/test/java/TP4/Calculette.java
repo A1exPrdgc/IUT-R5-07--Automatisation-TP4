@@ -77,7 +77,7 @@ public class Calculette {
         String expr = "1.0 3 + 2 3.2 / +"; // (1.0+3)+(2/3.2)
         try {
             double res = Calculette.evaluerExpression(expr);
-            System.out.println("Résultat : " + res);
+            System.out.println("*Résultat : " + res);
         } catch (Exception e) {
             System.err.println("Erreur : " + e.getMessage());
         }
